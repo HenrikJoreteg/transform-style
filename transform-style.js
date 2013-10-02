@@ -10,7 +10,11 @@ var res;
 });
 
 // take an element and apply the style
-module.exports = function (el, style) {
-    el.style[res] = style;
+module.exports = function (el, style, additive) {
+    if (additive) {
+        el.style[res] += ' ' + style;
+    } else {
+        el.style[res] = style;
+    }
     return el;
 };
