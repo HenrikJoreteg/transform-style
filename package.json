@@ -1,0 +1,20 @@
+{
+  "name": "transform-style",
+  "version": "0.0.1",
+  "description": "Apply transform style property with proper prefix to an element. For use with browserify / CommonJS.",
+  "main": "transform-style.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:HenrikJoreteg/transform-style.git"
+  },
+  "keywords": [
+    "styles",
+    "css",
+    "browserify"
+  ],
+  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "license": "MIT"
+}
