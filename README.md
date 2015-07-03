@@ -1,8 +1,8 @@
 # transform-style
 
-Apply transform style property with proper prefix to an element. For use with browserify / CommonJS.
+Apply transform style property with proper prefix to an element. For use with browserify / webpack / CommonJS.
 
-Normally I'm all for styles living in CSS, but there are times when it makes sense to position items using JS and transforms are the most performant way to do it. Hence, this tiny library.
+There are times when it makes sense to position items using JS and transforms are the most performant way to do it. Hence, this tiny library.
 
 ## installing
 
@@ -42,7 +42,7 @@ applyTransform(el, 'translateX(0px)');
 
 ## credits
 
-If you like this, follow [@HenrikJoreteg] on twitter.
+If you like this, follow [@HenrikJoreteg](http://twitter.com/henrikjoreteg) on twitter.
 
 ## license
 
