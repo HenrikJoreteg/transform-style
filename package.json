@@ -1,6 +1,6 @@
 {
   "name": "transform-style",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Apply transform style property with proper prefix to an element. For use with browserify / CommonJS.",
   "main": "transform-style.js",
   "repository": {
